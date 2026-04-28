@@ -8,6 +8,7 @@ Handles user messages and generates intelligent rule-based responses
 Stores complete conversation history with timestamps
 Designed with a clean layered architecture (Controller → Service → Repository)
 Ready for extension into real-time chat systems or AI-powered bots
+
 ⚙️ Features
 💬 Chat Functionality
 Accepts user messages via /webhook
@@ -16,6 +17,7 @@ Greetings (hi, hello, good morning, etc.)
 Queries (how are you, name, time, date, weather)
 Gratitude (thanks, thank you)
 General fallback responses
+
 🧠 Response System
 Rule-based intent detection
 Structured JSON response format
@@ -46,6 +48,7 @@ Client → REST API (/webhook)
        → Repository Layer
        → Database (Message Storage)
        → Response JSON
+       
 🔥 What Makes This Project Stand Out
 Clean backend architecture following industry standards
 Conversation history tracking (not just stateless responses)
@@ -57,7 +60,7 @@ Add AI-based responses using LLMs
 Implement WebSocket for real-time messaging
 Add authentication & user sessions
 Dockerize for deployment
-👨‍💻 Author
 
+👨‍💻 Author
 Built by SaiLakshmi
 Java Backend Developer | Spring Boot | REST APIs
