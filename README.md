@@ -33,13 +33,16 @@ Timestamp of each interaction
 Enables conversation tracking
 
 📡 API Response Format
+
 {
   "user": "sai",
   "message": "hi",
   "reply": "Hi there! How can I help you?",
   "timestamp": "2026-04-07T15:37:14"
 }
+
 🏗️ Tech Stack
+
 Java
 Spring Boot
 Spring MVC
